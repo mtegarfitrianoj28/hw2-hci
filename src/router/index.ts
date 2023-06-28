@@ -22,7 +22,7 @@ const routes: Array<RouteRecordRaw> = [
       },
       {
         path: "kolam",
-        component: () => import("@/views/KolamPage.vue"),
+        component: () => import("@/data/KolamPage.vue"),
       },
     ],
   },
